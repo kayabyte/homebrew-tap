@@ -7,7 +7,7 @@ cask "pairfold" do
   desc "Folder synchronization and mirror backup with safety archive"
   homepage "https://kayabyte.dev/mac/pairfold/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Pairfold.app"
 

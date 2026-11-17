@@ -7,7 +7,7 @@ cask "exhibitly" do
   desc "Convert iMessage and WhatsApp chat threads into court-ready PDFs"
   homepage "https://kayabyte.dev/mac/exhibitly/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Exhibitly.app"
 

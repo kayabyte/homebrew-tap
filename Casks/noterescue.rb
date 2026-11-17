@@ -7,7 +7,7 @@ cask "noterescue" do
   desc "Differential restore for Apple Notes, Contacts, Safari, and Calendars"
   homepage "https://kayabyte.dev/mac/noterescue/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "NoteRescue.app"
 

@@ -7,7 +7,7 @@ cask "balanced" do
   desc "Convert PDF bank statements to CSV and QBO with balance verification"
   homepage "https://kayabyte.dev/mac/balanced/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Balanced.app"
 

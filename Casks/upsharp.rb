@@ -7,7 +7,7 @@ cask "upsharp" do
   desc "Local AI image upscaler and photo enhancer with Apple Silicon acceleration"
   homepage "https://kayabyte.dev/mac/upsharp/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Upsharp.app"
 

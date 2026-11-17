@@ -7,7 +7,7 @@ cask "albumrescue" do
   desc "Export and back up Apple Photos libraries and albums as Finder folders"
   homepage "https://kayabyte.dev/mac/albumrescue/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AlbumRescue.app"
 

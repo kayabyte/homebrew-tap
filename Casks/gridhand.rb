@@ -7,7 +7,7 @@ cask "gridhand" do
   desc "Merge, split, compare, and clean large Excel and CSV spreadsheets"
   homepage "https://kayabyte.dev/mac/gridhand/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Gridhand.app"
 
